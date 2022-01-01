@@ -11,7 +11,7 @@ sudo apt install steam giara lutris q4wine onionshare musescore3 telegram-deskto
 #Installando Wine
 echo NOW INSTALLING WINE
 sudo apt install wine
-mkdir /usr/share/wine/mono/wine-mono-5.0.0
+sudo mkdir /usr/share/wine/mono/wine-mono-5.0.0
 cd /usr/share/wine/mono/wine-mono-5.0.0
 sudo wget https://dl.winehq.org/wine/wine-mono/5.0.0/wine-mono-5.0.0-x86.msi
 sudo apt install playonlinux winetricks
@@ -29,4 +29,3 @@ sudo apt upgrade  && sudo apt update
 #The End!
 #Fine!
 echo Programmi installati con successo. Ora puoi chiudere il terminale/Now you can close this window
-
