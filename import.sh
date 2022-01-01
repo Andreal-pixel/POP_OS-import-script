@@ -1,3 +1,4 @@
+#!/bin/bash
 #First Updating
 #Primo Updating
 echo Now updating...
@@ -28,4 +29,4 @@ sudo apt upgrade  && sudo apt update
 #The End!
 #Fine!
 echo Programmi installati con successo. Ora puoi chiudere il terminale/Now you can close this window
-#xD
+
