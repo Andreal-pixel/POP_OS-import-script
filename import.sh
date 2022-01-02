@@ -22,6 +22,13 @@ sudo wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microso
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt update
 sudo apt install -y powershell
+#Installing adblocker (from https://github.com/Andreal-pixel/Linux-Hostblocker )
+#Installando l'adblocker (da https://github.com/Andreal-pixel/Linux-Hostblocker )
+echo Installing adblocker...
+sudo mkdir /hostbackup
+sudo cp /etc/hosts /hostbackup
+wget https://blocklistproject.github.io/Lists/everything.txt
+sudo cat everything.txt > /etc/hosts
 #Final Updating
 #Ultimo Updating
 echo Updating...
