@@ -7,6 +7,9 @@ sudo apt update && sudo apt upgrade
 #Installando programmi vari
 echo Benvenuto su questo pc. Stiamo installando il necessario per te. NON CHIUDERE IL TERMINALE/DO NOT CLOSE THIS WINDOW
 sudo apt install steam giara lutris q4wine onionshare musescore3 telegram-desktop gnome-tweaks gnome-shell-extensions gparted cmatrix wget aptitude apt-transport-https software-properties-common git 
+sudo add-apt-repository ppa:cdemu/ppa
+sudo apt-get update
+sudo apt-get install gcdemu cdemu-client
 #Installing Wine
 #Installando Wine
 echo NOW INSTALLING WINE
