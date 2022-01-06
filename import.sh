@@ -4,7 +4,7 @@
 echo Now updating...
 sudo apt update && sudo apt upgrade
 #Installing various programs and dependencies
-#Installando programmi vari
+#Installando programmi vari e necessari
 echo Benvenuto su questo pc. Stiamo installando il necessario per te. NON CHIUDERE IL TERMINALE/DO NOT CLOSE THIS WINDOW
 sudo apt install steam giara lutris q4wine onionshare musescore3 telegram-desktop gnome-tweaks gnome-shell-extensions gparted cmatrix wget aptitude apt-transport-https software-properties-common git 
 sudo add-apt-repository ppa:cdemu/ppa
